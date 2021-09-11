@@ -1,4 +1,1 @@
-coin.freeforallservers.com:9451
-eagle1.baldeaglecoin.org
-eagle2.baldeaglecoin.org
-eagle3.baldeaglecoin.org
+ 135.148.121.176:9451
