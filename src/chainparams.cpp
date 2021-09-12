@@ -86,9 +86,9 @@ public:
         //consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1517356801; // January 31st, 2018
 
         // Deployment of SegWit (BIP141, BIP143, and BIP147)
-        //consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
-        //consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1485561600; // January 28, 2017
-        //consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1631456365; // September 12, 2021
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1639322365; // 	Sun Dec 12 2021 15:19:25 GMT+0000
 
         // The best chain should have at least this much work.
         //consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000002ee655bf00bf13b4cca");
