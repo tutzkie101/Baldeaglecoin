@@ -107,7 +107,7 @@ public:
         pchMessageStart[3] = 0xdb;
         nDefaultPort = 9451;
         nPruneAfterHeight = 100000;
-        m_assumed_blockchain_size = 22;
+        m_assumed_blockchain_size = 5;
         m_assumed_chain_state_size = 3;
 
         genesis = CreateGenesisBlock(1630537777, 2001712724, 0x1e0ffff0, 1, 3000 * COIN);
@@ -144,7 +144,9 @@ public:
 
         checkpointData = {
             {
-                {  0, uint256S("0x61da7f99cd32f58919ec750ea9ce49641fdd141b808ace5a726911f1e390d6f7")}//,
+                {  0, uint256S("0x61da7f99cd32f58919ec750ea9ce49641fdd141b808ace5a726911f1e390d6f7")},
+                {  32256, uint256S("0xb05f1dbe4cac083440acf143eb1256270f6eb55ac8879c3f9f2c3856ff2772c6")},
+                {  64097, uint256S("0xeb024929db73c3e19ff961f5e27a04fa03c22f8af0403eb49204c6851a91ae7c")}//,
                 //{  4032, uint256S("0x9ce90e427198fc0ef05e5905ce3503725b80e26afd35a987965fd7e3d9cf0846")},
                 //{  8064, uint256S("0xeb984353fc5190f210651f150c40b8a4bab9eeeff0b729fcb3987da694430d70")},
                 //{ 16128, uint256S("0x602edf1859b7f9a6af809f1d9b0e6cb66fdc1d4d9dcd7a4bec03e12a1ccd153d")},
