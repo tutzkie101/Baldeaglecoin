@@ -1,4 +1,4 @@
-# TOR SUPPORT IN LITECOIN
+# TOR SUPPORT IN BALDEAGLECOIN
 
 It is possible to run Baldeaglecoin Core as a Tor hidden service, and connect to such services.
 
